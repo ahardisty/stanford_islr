@@ -2,8 +2,6 @@ library(MASS)
 library(ISLR)
 ### Simple linear regression
 names(Boston)
-
-# Change reference data
 ?Boston
 plot(medv~lstat,Boston)
 fit1=lm(medv~lstat,data=Boston)
